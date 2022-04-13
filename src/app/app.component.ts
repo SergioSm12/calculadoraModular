@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calculadoraModular';
+  title = 'calculadora Modular';
+
+  parentResult:number;
+
+  add_result_parent(result:number){
+    this.parentResult=result;
+  }
 }

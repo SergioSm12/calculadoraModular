@@ -1,0 +1,22 @@
+<form>
+    <div class="form-group">
+        <label class="form-label">Operand A</label>
+        <input 
+        type="number"
+        class="form-control"
+        placeholder="Write Operand A"
+        [(ngModel)]="operandoA" name="operandoA"
+        />
+    </div>
+   
+    <div class="form-group">
+        <label class="form-label">Operand B</label>
+        <input 
+        type="number"
+        class="form-control"
+        placeholder="Write Operand B"
+        [(ngModel)]="operandoB" name="operandoB"
+        />
+    </div>
+    <button type="submit" class="btn btn-danger" (click)="sum()">Sum</button>
+</form>
